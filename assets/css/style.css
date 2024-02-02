@@ -4,13 +4,15 @@ body * {
     font-weight: 300;
     margin: 0; padding: 0;
 }
-.logo {width: 48px;}
+.logo {width: 32px;}
+.nav-link a { color: white;}
+
 .icon-bar {
     background-color: #00cdf4;
     text-align: center;
     padding: 5px 0;
 }
-#destacados, #nosotros, #contacto {
+#destacados, #nosotros, #contacto, header {
     background-color: #000;
 }
 .card { 
@@ -19,3 +21,9 @@ body * {
 footer {
     background-color: #00cdf4;
 }
+#carouselExampleInterval {
+    position: relative;
+    top: -60px;
+}
+#destacados h4 { font-size: 1rem }
+#destacados .card-text { font-size: 0.7rem}
