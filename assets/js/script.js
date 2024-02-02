@@ -1,16 +1,3 @@
-/*
-$(document).ready(function()
-     {
-          
-     }
-);
-
- /*
-    $("#ingredientes").onclick(function(){ $(this).css({ "color": "red" }); });
-     $("#ingredientes").hover(function(){ $(this).css("<a href='#'>Me convertí</a>"); });     
-     $("#ingredientes").dblclick(function(){ $(this).hide('slow'); });
- */ 
-
 $(document).ready(function(){
      $(".card-title").click(function(){ 
           $(".card-text").toggle('slow');
